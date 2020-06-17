@@ -10,17 +10,17 @@ featured: true
 hidden: true
 ---
 
-When it comes to debugging the failed test cases in selenium or appium having screenshot of the web or mobile application can be very much handy.
-99% of the times one can identify the reason for automated test case failure just by seeing the screenshot at the time of failure without having to going through the logs dump.
+When it comes to debugging the failed test cases in selenium or appium having a screenshot of the web or mobile application can be very much handy.
+99% of the time one can identify the reason for automated test case failure just by seeing the screenshot at the time of failure without having to go through the logs dump.
 
-In this article we are going discuss the following:
-* how to take screenshots using selenium
-* situations where selenium fails to take screenshot
-* How to take screenshot with only java code without using selenium
+In this article we are going to discuss the following:
+* How to take screenshots using selenium
+* situations where selenium fails to take a screenshot
+* How to take a screenshot with only java code without using selenium
 
-#### Take screenshot using selenium
+#### Take a screenshot using selenium
 
-Below code snippet can be used to generate the screenshot using selenium.
+Below code snippet, can be used to generate the screenshot using selenium.
 
 ```html
     public static void getScreenshot(WebDriver driver, String fileName) {
@@ -36,24 +36,24 @@ Below code snippet can be used to generate the screenshot using selenium.
 
 For more details on different ways of taking screenshot using selenium please follow the link
 
-#### Why do we need to take screenshot using java?
+#### Why do we need to take a screenshot using java?
 
-Most of the times taking screenshot using selenium is more than enough. But in some cases selenium won't be able to take the screenshot.
+Most of the time taking screenshot using selenium are more than enough. But in some cases selenium won't be able to take the screenshot.
 * When browser window went not responding state
 * When the driver object got killed because of some issue
-* In case of Mobile automation test cases, when the device reject appium driver access because of some administrator app takes control of the device
+* In case of Mobile automation test cases, when the device rejects appium driver access because of some administrator app takes control of the device
 
-In most of the companies mobile devices provided for executing automation test cases are managed by company it self. And they can access the device by using some schedulers or using some backend user. For example, when the test cases are running on the mobile device, if the auto update process started, it will restrict the access to Appium driver. In this case while trying to take screenshot Appium will throw WebDriverException.
+In most companies, mobile devices provided for executing automation test cases are managed by the company itself. And they can access the device by using some schedulers or using some backend users. For example, when the test cases are running on the mobile device, if the auto-update process started, it will restrict the access to Appium driver. In this case, while trying to take screenshot Appium will throw WebDriverException.
 
-In the above mentioned scenarios, as we won't be able to take screenshots using Selenium, it is a better approach to take entire desktop/system screenshot using java.  
+In the above-mentioned scenarios, as we won't be able to take screenshots using Selenium, it is a better approach to take the entire desktop/system screenshot using java.  
 
-#### Taking screenshot using java?
+#### Taking a screenshot using java?
 
-Below approach uses java.awt.Robot class to capture the screen pixels and returns a BufferedImage. 
+The below approach uses java.awt.Robot class to capture the screen pixels and returns a BufferedImage. 
 
-Java.awt.Robot class is used to take the control of mouse and keyboard. Once you get the control, you can do any type of operation related to mouse and keyboard through your java code.
+Java.awt.Robot class is used to take control of mouse and keyboard. Once you get the control, you can do any type of operation related to mouse and keyboard through your java code.
 
-Copy and paste following code in your Java class and invoke the method captureScreen() with file name as argument. The screen shot will be stored in the file that you specified in argument.
+Copy and paste the following code in your Java class and invoke the method captureScreen() with the file name as argument. The screenshot will be stored in the file that you specified in the argument.
 
 ```html
 import java.awt.Dimension;
@@ -79,7 +79,7 @@ public void captureScreen(String fileName) throws Exception {
 
 #### Integrating the Java screenshot with Selenium screenshot code
 
-It is always recommended to use Selenium for taking screenshot. In case selenium is not able to take the screenshot then we should take the screenshot using java or any other programming language we are using to write selenium code.
+It is always recommended to use Selenium for taking a screenshot. In case selenium is not able to take the screenshot then we should take the screenshot using java or any other programming language we are using to write selenium code.
 
 Please take a look at the below code:
 
@@ -106,4 +106,4 @@ Please take a look at the below code:
     }
 ```
 
-Hope the above approach helps. Please let me know in the comments if any other ways of doing this.
+I hope the above approach helps. Please let me know in the comments if any other ways of doing this.
