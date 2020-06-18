@@ -2,7 +2,7 @@
 layout: post
 title:  "Take screenshot when Selenium/Appium fails using Java"
 author: hema
-categories: [ java, tutorial, appium, selenium ]
+categories: [ java, appium, selenium ]
 tags: [java, selenium]
 image: assets/images/screenshot.png
 description: "Take screenshot when Selenium/Appium fails using Java"

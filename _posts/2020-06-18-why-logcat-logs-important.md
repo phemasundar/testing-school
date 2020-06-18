@@ -2,7 +2,7 @@
 layout: post
 title:  "Importance of LogCat logs in Android automation test execution"
 author: hema
-categories: [ tutorial, appium ]
+categories: [ appium ]
 tags: [appium]
 image: assets/images/logs.png
 description: "Importance of LogCat logs in Android automation test execution"
