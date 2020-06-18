@@ -22,7 +22,8 @@ In this article we are going to discuss the following:
 
 Below code snippet, can be used to generate the screenshot using selenium.
 
-```html
+```java
+public class Screenshot {
     public static void getScreenshot(WebDriver driver, String fileName) {
         try {
             File screenshotFileObj = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
@@ -32,6 +33,7 @@ Below code snippet, can be used to generate the screenshot using selenium.
             //TODO: Handle the exception
         }
     }
+}
 ```
 
 For more details on different ways of taking screenshot using selenium please follow the link
