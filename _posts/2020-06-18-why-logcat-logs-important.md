@@ -9,7 +9,7 @@ description: "Importance of LogCat logs in Android automation test execution"
 featured: true
 hidden: true
 ---
-#### Introduction
+
 In any software or application logs play a vital role. When something goes wrong in the application, logs are the first place one will check to find out what exactly happened.
 Generating proper log messages will reduce the time to fix any issue. This will be of much use in case of a production bug. This applies not just for development projects even for Test automation projects as well.
 
