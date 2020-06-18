@@ -4,7 +4,7 @@ title:  "Importance of ThreadLocal in parallel execution of test cases"
 author: hema
 categories: [ java, tutorial, selenium ]
 tags: [java, selenium]
-image: assets/images/11.jpg
+image: assets/images/multithreading.jpeg
 description: "Importance of ThreadLocal in parallel execution of test cases"
 featured: true
 hidden: true

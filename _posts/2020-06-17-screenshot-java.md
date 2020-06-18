@@ -4,7 +4,7 @@ title:  "Take screenshot when Selenium/Appium fails using Java"
 author: hema
 categories: [ java, tutorial, appium, selenium ]
 tags: [java, selenium]
-image: assets/images/11.jpg
+image: assets/images/screenshot.png
 description: "Take screenshot when Selenium/Appium fails using Java"
 featured: true
 hidden: true
