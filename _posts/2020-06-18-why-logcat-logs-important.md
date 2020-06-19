@@ -52,6 +52,6 @@ Whenever any test case fails most of the time just by seeing the screenshot of t
 Application crash might be triggered with some other third-party app in mobile or some issue with the backend API calls etc. In cases similar to this, logcat logs can be of great use for the dev team to find the root cause of the issue. Thus reducing the time of bug fix which ultimately helps in faster deliveries.
  
 #### How to fix discarding LogCat log entries
-If you feel that you are not getting all the logcat logs for the current test, there might be a problem with the log buffer of the device. Please follow this article to fix the issue.
+If you feel that you are not getting all the logcat logs for the current test, there might be a problem with the log buffer of the device. Please follow [this](../update-logcat-buffersize) article to fix the issue.
 
 I hope the above approach helps. Please let me know in the comments if any other ways of doing this.
