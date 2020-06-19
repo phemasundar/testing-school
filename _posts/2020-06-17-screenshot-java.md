@@ -36,7 +36,7 @@ public class Screenshot {
 }
 ```
 
-For more details on different ways of taking screenshot using selenium please follow the link
+For more details on different ways of taking screenshot using selenium please follow the [link]()
 
 #### Why do we need to take a screenshot using java?
 
