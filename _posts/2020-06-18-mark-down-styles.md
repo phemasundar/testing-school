@@ -2,7 +2,7 @@
 layout: post
 title:  "MarkDown styles"
 author: sal
-categories: [ Jekyll, tutorial ]
+categories: [ Jekyll ]
 image: assets/images/12.jpg
 featured: false
 hidden: true
